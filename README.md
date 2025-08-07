@@ -1,2 +1,13 @@
-# rag-docq-ollama
-A performant Retrieval-Augmented Generation (RAG) pipeline using Ollama to run local LLMs like gpt-oss:20b, llama3:8b, qwen3:4b, and gemma3:4b. Supports PDFs, JPGs, PNGs via OCR, uses Sentence-Transformers for embeddings and ChromaDB for vector storage. Includes benchmarking tools for speed, memory, and answer quality across models.
+# RAG GPU Quantized LLM Benchmark
+
+A GPU-accelerated Retrieval-Augmented Generation (RAG) benchmarking framework using quantized large language models (LLMs) for fast and accurate document question answering.
+
+## Features
+
+- Supports multi-format input: PDF, JPG, JPEG, PNG  
+- OCR text extraction with Tesseract  
+- Document embedding using SentenceTransformers  
+- Vector storage and similarity search with ChromaDB  
+- Inference on local quantized LLMs via Ollama-compatible API  
+- Performance benchmarking: speed, memory, accuracy  
+- Modular and extensible for testing various models
